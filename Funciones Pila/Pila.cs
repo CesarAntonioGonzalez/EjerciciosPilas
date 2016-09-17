@@ -87,13 +87,14 @@ namespace Funciones_Pila
         {
          
             int item2 = int.Parse(Console.ReadLine());
-            while(item2==item)
+            while (top < 10)
             {
-                if (!isEmpty())
+                if (cola[top] == item2)
                 {
-                    cola[top] = 0;
-                    top--;
+                    break;
                 }
+                cola[top] = 0;
+                top--;
             }
 
             /*if(!isEmpty())
