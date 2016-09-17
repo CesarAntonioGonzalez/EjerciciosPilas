@@ -18,8 +18,9 @@ namespace Funciones_Pila
                 Console.WriteLine("\n Aplicacion Listas \n");
                 Console.WriteLine("1.Push");
                 Console.WriteLine("2.Pop ");
-                Console.WriteLine("3.Peek");
-                Console.WriteLine("4.Salir");
+                Console.WriteLine("3.RemoveSecond");
+                Console.WriteLine("4.RemoveDown");
+                Console.WriteLine("5.Salir");
                 Console.Write("Ingrese una Opcion: ");
                 op = short.Parse(Console.ReadLine());
                 switch (op)
@@ -30,15 +31,22 @@ namespace Funciones_Pila
                         lista.Mostrar();
                         break;
                     case 2:
-                        lista.removesecond();
+                        lista.pop();
                         lista.Mostrar();
 
                         break;
 
                     case 3:
-                        lista.peek();
+                        lista.removesecond();
+                        lista.Mostrar();
+
                         break;
-                   case 4:
+                    case 4:
+                        lista.removeDown();
+                        lista.Mostrar();
+
+                        break;
+                   case 5:
                         Console.WriteLine("Fin de la aplicacion");
                         Console.ReadLine();
                         Console.Clear();
@@ -49,7 +57,7 @@ namespace Funciones_Pila
                         break;
                 }
 
-            } while (op != 4);
+            } while (op != 5);
 
         }
     }
