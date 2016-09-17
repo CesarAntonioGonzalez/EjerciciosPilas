@@ -12,7 +12,8 @@ namespace Funciones_Pila
         int[] cola = new int[10];
         int top = -1;
         int item = 0;
-
+        int second = 1;
+        int top2 = 9;
         public bool isEmpty()
         {
             if (top == -1)
@@ -41,11 +42,11 @@ namespace Funciones_Pila
         }
         public void Push()
         {
-            while(top<9)
+            while(top<5)
             {
                 Console.Write("Igrese: ");
                 item = int.Parse(Console.ReadLine());
-                top++;
+                top--;
                 if (!isFull())
                 {
                     cola[top] = item;
@@ -71,6 +72,14 @@ namespace Funciones_Pila
                 Console.WriteLine(c);
             }
         }
-
+        public void removesecond()
+        {
+            if(!isEmpty())
+            {
+                cola[second] = 0;
+                second++;
+            }
+            
+        }
     }
 }

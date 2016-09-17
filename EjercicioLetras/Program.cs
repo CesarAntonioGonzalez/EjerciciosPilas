@@ -10,15 +10,36 @@ namespace EjercicioLetras
     {
         static void Main(string[] args)
         {
-            
+            int op;
             pila lista = new pila();
-            lista.Push();
-            lista.Mostrar();
-            Console.ReadLine();
-            lista.pop();
-            lista.Mostrar();
-            Console.ReadLine();
-            lista.pop();
+            do
+            {
+                Console.WriteLine("1. Push Letra");
+                Console.WriteLine("2. Pop Letra");
+                Console.WriteLine("3. Salir");
+                Console.Write("Escoga una opcion:  ");
+                op = int.Parse(Console.ReadLine());
+                switch(op)
+                {
+                    case 1:
+                        lista.Push();
+                        lista.Mostrar();
+                        break;
+                    case 2:
+                        lista.pop();
+                        lista.Mostrar();
+                        break;
+                    case 3:
+                        Console.WriteLine("Esta saliendo del programa");
+                        Console.ReadKey();
+                        break;
+                    default:
+                        Console.WriteLine("Intente de nuevo");
+                        break;
+                }
+               
+
+            } while (op != 3);
             
         }
     }

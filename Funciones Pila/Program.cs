@@ -18,11 +18,8 @@ namespace Funciones_Pila
                 Console.WriteLine("\n Aplicacion Listas \n");
                 Console.WriteLine("1.Push");
                 Console.WriteLine("2.Pop ");
-                Console.WriteLine("3.IsFull");
-                Console.WriteLine("4.IsEmpty");
-                Console.WriteLine("5.Mostrar");
-                Console.WriteLine("6.peek");
-                Console.WriteLine("7.Salir");
+                Console.WriteLine("3.Peek");
+                Console.WriteLine("4.Salir");
                 Console.Write("Ingrese una Opcion: ");
                 op = short.Parse(Console.ReadLine());
                 switch (op)
@@ -30,32 +27,18 @@ namespace Funciones_Pila
                 {
                     case 1:
                         lista.Push();
-                        Console.Clear();
+                        lista.Mostrar();
                         break;
                     case 2:
-                        lista.pop();
-                        Console.Clear();
-
-                        break;
-                    case 3:
-                        lista.isFull();
-                        Console.Clear();
-
-                        break;
-                    case 4:
-                        lista.isEmpty();
-                        Console.Clear();
-
-                        break;
-                    case 5:
+                        lista.removesecond();
                         lista.Mostrar();
 
                         break;
-                    case 6:
+
+                    case 3:
                         lista.peek();
-                        Console.Clear();
                         break;
-                   case 7:
+                   case 4:
                         Console.WriteLine("Fin de la aplicacion");
                         Console.ReadLine();
                         Console.Clear();
@@ -66,7 +49,7 @@ namespace Funciones_Pila
                         break;
                 }
 
-            } while (op != 7);
+            } while (op != 4);
 
         }
     }

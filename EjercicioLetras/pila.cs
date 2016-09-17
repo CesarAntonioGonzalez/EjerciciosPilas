@@ -44,7 +44,7 @@ namespace EjercicioLetras
         }
         public void Push()
         {
-            while (top < 5)
+            while (top < 9)
             {
                 Console.Write("Igrese: ");
                 item = char.Parse(Console.ReadLine());
