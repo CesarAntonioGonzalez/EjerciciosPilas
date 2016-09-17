@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Funciones Pila", "Funciones Pila\Funciones Pila.csproj", "{908C9D7B-19BA-4DD0-A519-19EF043EB558}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjercicioLetras", "EjercicioLetras\EjercicioLetras.csproj", "{98DAE66E-E537-4CB4-B9C2-9670650EE97F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{908C9D7B-19BA-4DD0-A519-19EF043EB558}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{908C9D7B-19BA-4DD0-A519-19EF043EB558}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{908C9D7B-19BA-4DD0-A519-19EF043EB558}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98DAE66E-E537-4CB4-B9C2-9670650EE97F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98DAE66E-E537-4CB4-B9C2-9670650EE97F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98DAE66E-E537-4CB4-B9C2-9670650EE97F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98DAE66E-E537-4CB4-B9C2-9670650EE97F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

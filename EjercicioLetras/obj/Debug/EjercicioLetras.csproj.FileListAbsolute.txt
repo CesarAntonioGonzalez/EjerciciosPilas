@@ -1,0 +1,6 @@
+C:\Users\Axeldcc-PC\Documents\GitHub\EjerciciosPilas\EjercicioLetras\bin\Debug\EjercicioLetras.exe.config
+C:\Users\Axeldcc-PC\Documents\GitHub\EjerciciosPilas\EjercicioLetras\bin\Debug\EjercicioLetras.exe
+C:\Users\Axeldcc-PC\Documents\GitHub\EjerciciosPilas\EjercicioLetras\bin\Debug\EjercicioLetras.pdb
+C:\Users\Axeldcc-PC\Documents\GitHub\EjerciciosPilas\EjercicioLetras\obj\Debug\EjercicioLetras.exe
+C:\Users\Axeldcc-PC\Documents\GitHub\EjerciciosPilas\EjercicioLetras\obj\Debug\EjercicioLetras.pdb
+C:\Users\Axeldcc-PC\Documents\GitHub\EjerciciosPilas\EjercicioLetras\obj\Debug\EjercicioLetras.csprojResolveAssemblyReference.cache

@@ -4,3 +4,9 @@ c:\users\axeldcc-pc\documents\visual studio 2015\Projects\Ejercicios Pila\Funcio
 c:\users\axeldcc-pc\documents\visual studio 2015\Projects\Ejercicios Pila\Funciones Pila\obj\Debug\Funciones Pila.csprojResolveAssemblyReference.cache
 c:\users\axeldcc-pc\documents\visual studio 2015\Projects\Ejercicios Pila\Funciones Pila\obj\Debug\Funciones Pila.exe
 c:\users\axeldcc-pc\documents\visual studio 2015\Projects\Ejercicios Pila\Funciones Pila\obj\Debug\Funciones Pila.pdb
+C:\Users\Axeldcc-PC\Documents\GitHub\EjerciciosPilas\Funciones Pila\bin\Debug\Funciones Pila.exe.config
+C:\Users\Axeldcc-PC\Documents\GitHub\EjerciciosPilas\Funciones Pila\obj\Debug\Funciones Pila.exe
+C:\Users\Axeldcc-PC\Documents\GitHub\EjerciciosPilas\Funciones Pila\obj\Debug\Funciones Pila.pdb
+C:\Users\Axeldcc-PC\Documents\GitHub\EjerciciosPilas\Funciones Pila\bin\Debug\Funciones Pila.exe
+C:\Users\Axeldcc-PC\Documents\GitHub\EjerciciosPilas\Funciones Pila\bin\Debug\Funciones Pila.pdb
+C:\Users\Axeldcc-PC\Documents\GitHub\EjerciciosPilas\Funciones Pila\obj\Debug\Funciones Pila.csprojResolveAssemblyReference.cache
